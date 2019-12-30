@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Page Object test example]">
+  <parameter name="appURL" value="http://newtours.demoaut.com/"/>
+  <parameter name="browserType" value="firefox"/>
+  <test name="test-1(failed)">
+    <classes>
+      <class name="com.mercury.frontend.OfrCreateAnAccounTest">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.mercury.frontend.OfrCreateAnAccounTest -->
+      <class name="com.mercury.frontend.OfrLoginTest">
+        <methods>
+          <include name="loginTest"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.mercury.frontend.OfrLoginTest -->
+    </classes>
+  </test> <!-- test-1(failed) -->
+</suite> <!-- Failed suite [Page Object test example] -->

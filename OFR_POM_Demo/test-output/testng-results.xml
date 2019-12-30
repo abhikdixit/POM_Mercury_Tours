@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Page Object test example" duration-ms="26256" started-at="2019-12-27T11:38:55Z" finished-at="2019-12-27T11:39:21Z">
+    <groups>
+    </groups>
+    <test name="test-1" duration-ms="26256" started-at="2019-12-27T11:38:55Z" finished-at="2019-12-27T11:39:21Z">
+      <class name="com.mercury.frontend.OfrLoginTest">
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:com.mercury.frontend.OfrLoginTest@4f933fd1]" name="initializeTestBaseSetup" is-config="true" duration-ms="6086" started-at="2019-12-27T17:09:07Z" finished-at="2019-12-27T17:09:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://newtours.demoaut.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mercury.frontend.OfrLoginTest@4f933fd1]" name="setUp" is-config="true" duration-ms="1" started-at="2019-12-27T17:09:14Z" finished-at="2019-12-27T17:09:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.mercury.frontend.OfrLoginTest@4f933fd1]" name="loginTest" duration-ms="6866" started-at="2019-12-27T17:09:14Z" finished-at="2019-12-27T17:09:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.mercury.frontend.OfrLoginTest@4f933fd1]" name="tearDown" is-config="true" duration-ms="783" started-at="2019-12-27T17:09:20Z" finished-at="2019-12-27T17:09:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=OfrLoginTest.loginTest()[pri:0, instance:com.mercury.frontend.OfrLoginTest@4f933fd1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mercury.frontend.OfrLoginTest@4f933fd1]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-12-27T17:09:21Z" finished-at="2019-12-27T17:09:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mercury.frontend.OfrLoginTest -->
+      <class name="com.mercury.frontend.OfrCreateAnAccounTest">
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:com.mercury.frontend.OfrCreateAnAccounTest@d2cc05a]" name="initializeTestBaseSetup" is-config="true" duration-ms="7234" started-at="2019-12-27T17:08:55Z" finished-at="2019-12-27T17:09:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://newtours.demoaut.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mercury.frontend.OfrCreateAnAccounTest@d2cc05a]" name="setUp" is-config="true" duration-ms="0" started-at="2019-12-27T17:09:02Z" finished-at="2019-12-27T17:09:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyCreateAnAccounPage()[pri:0, instance:com.mercury.frontend.OfrCreateAnAccounTest@d2cc05a]" name="verifyCreateAnAccounPage" duration-ms="4541" started-at="2019-12-27T17:09:02Z" finished-at="2019-12-27T17:09:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateAnAccounPage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.mercury.frontend.OfrCreateAnAccounTest@d2cc05a]" name="tearDown" is-config="true" duration-ms="722" started-at="2019-12-27T17:09:07Z" finished-at="2019-12-27T17:09:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCreateAnAccounPage status=SUCCESS method=OfrCreateAnAccounTest.verifyCreateAnAccounPage()[pri:0, instance:com.mercury.frontend.OfrCreateAnAccounTest@d2cc05a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mercury.frontend.OfrCreateAnAccounTest@d2cc05a]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-12-27T17:09:07Z" finished-at="2019-12-27T17:09:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mercury.frontend.OfrCreateAnAccounTest -->
+    </test> <!-- test-1 -->
+  </suite> <!-- Page Object test example -->
+</testng-results>

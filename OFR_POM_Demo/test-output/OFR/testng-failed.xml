@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OFR]">
+  <test name="LoginTestDemo(failed)">
+    <classes>
+      <class name="com.mercury.frontend.LoginTest">
+        <methods>
+          <include name="loginTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.mercury.frontend.LoginTest -->
+    </classes>
+  </test> <!-- LoginTestDemo(failed) -->
+</suite> <!-- Failed suite [OFR] -->
